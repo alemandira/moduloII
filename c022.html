@@ -7,14 +7,45 @@
     <link rel="shortcut icon" href="Mandira.ico" type="image/x-icon">
     <title>Links-Html</title>
 
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+            
+        }
+
+        a:visited {
+            color: blueviolet;
+        }
+
+        a:hover {
+            color: yellow;
+            background-color: black;
+            width: 300px;
+        }
+
+        a::after {
+            content: ' ⇨ ';
+            text-decoration: none;
+            font-weight: normal;
+            color: gray; 
+        }
+
+
+    </style>
 </head>
 
 <body>
     <h1>Personalizando links</h1><hr>
     <ul>
         <li><a href="https://github.com/alemandira" target="_blanck">Repositório Github</a></li>
-        <li>Canal do youtube</li>
-        <li>Site do Curso em video</li>
+        <li><a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s" target="_blanck">Canal do youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blanck">Site do Curso em video</a></li>
     </ul>
     
 </body>
